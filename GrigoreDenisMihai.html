@@ -1,14 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grigore_Denis</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
+
 </head>
 <body>
     <header>
-        <h1>Nume Prenume - Grigore Denis-Mihai</h1>
+        <h1>Nume - Grigore Denis-Mihai</h1>
         <p>Unit 2.</p>
         <p>Contact: Grigore.Li.Denis@student.utcluj.ro</p>
     </header>
@@ -16,7 +18,7 @@
 
     <main>
         <section id="componente">
-            <h2>Componente si caracteristic</h2>
+            <h2>Componente si caracteristici</h2>
             <table>
                 <thead>
                     <tr>
@@ -41,13 +43,14 @@
  <table>
                 <thead>
                     <tr>
-                        <th>ipconfig</th>
+                        <th>Poza</th>
+                        <th>Descriere</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><img width="300" src="ipconfig.png" alt="ipconfig"></td>
-
+                        <td>Comanda ipconfig se utilizeaza pentru a vedea configuratia IP de baza pentru toate Placile de Retea instalate pe calculator</td>
                     </tr>
                 </tbody>
             </table>
@@ -73,7 +76,7 @@
             </table>
         </section>
 
-       <section id="monitorizare">
+        <section id="monitorizare">
             <h2>Monitorizare Resurse</h2>
 
            <div id="slideshow-container">
@@ -83,7 +86,9 @@
         <img src="gpu.jpg.png" alt="GPU">
         <img src="disk.jpg.png" alt="Disk">
     </div>
+    <button onclick="startSlideshow()">Monitorizare Resurse</button>
         </section>
     </main>
+    <script src="script.js" defer></script>
 </body>
 </html>
